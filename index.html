@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wildberries - Карточка товара</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background-color: #f8f8f8;
+        }
+
+        .product-container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 30px;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+        }
+
+        .product-image {
+            width: 100%;
+            max-height: 500px;
+            object-fit: contain;
+            margin-bottom: 25px;
+            border-radius: 10px;
+        }
+
+        .product-title {
+            color: #6d1d8f;
+            font-size: 28px;
+            margin-bottom: 15px;
+        }
+
+        .product-price {
+            color: #ff3d71;
+            font-size: 34px;
+            font-weight: bold;
+            margin-bottom: 25px;
+        }
+
+        .buy-button {
+            display: block;
+            width: 100%;
+            padding: 18px 0;
+            background: #6d1d8f;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            font-size: 20px;
+            border-radius: 10px;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+        }
+
+        .buy-button:hover {
+            background: #50176b;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(109,29,143,0.3);
+        }
+
+        .product-description {
+            color: #333;
+            line-height: 1.6;
+            margin-bottom: 30px;
+            font-size: 16px;
+        }
+
+        .details-section {
+            margin: 25px 0;
+            padding: 20px;
+            background: #f9f0ff;
+            border-radius: 10px;
+        }
+
+        .details-title {
+            color: #6d1d8f;
+            font-size: 18px;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="product-container">
+        <img src="IMG_20250325_000044.jpg" alt="Изображение товара" class="product-image">
+        <h1 class="product-title">Кофейный стакан-одноразка с принтом. Набор 50шт.</h1>
+        <div class="product-price">538 ₽</div>
+        
+        <div class="details-section">
+            <h2 class="details-title">Описание товара</h2>
+            <p class="product-description">
+                Прекрасный, стойкий стакан для кофе с забавным принтом станет отличным подарком для ваших одноклассников, особенно тех, кого зовут Артём МесрОпян.
+                В наборе 50 штук.
+            </p>
+        </div>
+
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" class="buy-button">
+            Купить сейчас
+        </a>
+    </div>
+</body>
+</html>
